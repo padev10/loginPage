@@ -1,0 +1,56 @@
+:root {
+  --animate-mt: 5rem;
+  --animate-mt: 3rem;
+  --mt: 2rem;
+}
+/*************************ELEMENTS*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: white;
+  width: 1240px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #1b1d21;
+  font-family: Poppins, sans-serif;
+}
+/*************************LOGIN*/
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: red;
+}
+.container {
+  display: flex;
+  width: 100%;
+  border-radius: 2rem;
+  padding: 0.4rem;
+  background-color: white;
+}
+.login {
+  border-radius: 2rem;
+  padding: 1.2rem;
+  background-color: blue;
+}
+.login img {
+  display: block;
+  margin: auto;
+}
+.login p {
+  display: block;
+  text-align: center;
+}
+.login .welcome {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.anime {
+  /* background-color: green; */
+}
