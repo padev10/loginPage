@@ -24,40 +24,45 @@
   </head>
   <body>
     <section class="box">
-      <main>
-        <!-- container -->
-        <div class="container">
-          <!-- login side -->
-          <div class="login">
+      <!-- container -->
+      <div class="container">
+        <!-- login side -->
+        <div class="login">
+          <div>
             <!-- logo -->
-            <img src="./media/icon.jpg" alt="" />
+            <img src="./media/icon.jpg" alt="company-icon" />
             <p class="welcome">Welcome back!</p>
-            <p>Please enter your details</p>
+            <p class="details">Please enter your details</p>
             <!-- email & password -->
-            <div class="details">
-              <input name="email" placeholder="Email" />
-              <input name="password" placeholder="Password" />
-              <i class="fa fa-eye-slash"></i>
-              <!-- remember & forgot -->
-              <div class="forgot">
-                <input type="checkbox" id="rem" value="rem" />
-                <p>Forgot password?</p>
-              </div>
-              <button>Login</button>
-              <!-- google log -->
+            <div class="form">
+              <input name="email" placeholder="Email" size="40" type="text" />
+              <input name="password" placeholder="Password" type="password" />
+              <i class="fa fa-eye-slash" id="eye"></i>
+            </div>
+            <!-- remember & forgot -->
+            <div class="forgot">
               <div>
-                <img src="./media/google.png" alt="google icon" />
-                <p>Log in with Google</p>
+                <input type="checkbox" id="rem" value="rem" />
+                <p>Remember for 30 days</p>
               </div>
-              <p>Don't have an account? <span class="sign-up">Sign Up</span></p>
+              <p id="pss">Forgot password?</p>
             </div>
           </div>
-          <!-- anime side -->
-          <div class="anime">
-            <img src="./media/character.jpg" alt="" />
+          <div class="sec-2">
+            <button class="login-button">Login</button>
+            <!-- google log -->
+            <button id="google">
+              <img src="./media/google.png" alt="google icon" />
+              Log in with Google
+            </button>
+            <p>Don't have an account? <span class="sign-up">Sign Up</span></p>
           </div>
         </div>
-      </main>
+        <!-- anime side -->
+        <div class="anime">
+          <img src="./media/character.jpg" alt="" />
+        </div>
+      </div>
     </section>
   </body>
 </html>
