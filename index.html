@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- css incorporation -->
+    <link rel="stylesheet" href="modern-normalise.css" />
     <link rel="stylesheet" href="style.css" />
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,46 +24,59 @@
     <title>Login Page</title>
   </head>
   <body>
-    <section class="box">
-      <!-- container -->
-      <div class="container">
-        <!-- login side -->
-        <div class="login">
-          <div>
-            <!-- logo -->
-            <img src="./media/icon.jpg" alt="company-icon" />
-            <p class="welcome">Welcome back!</p>
-            <p class="details">Please enter your details</p>
-            <!-- email & password -->
-            <div class="form">
-              <input name="email" placeholder="Email" size="40" type="text" />
-              <input name="password" placeholder="Password" type="password" />
-              <i class="fa fa-eye-slash" id="eye"></i>
-            </div>
-            <!-- remember & forgot -->
-            <div class="forgot">
-              <div>
-                <input type="checkbox" id="rem" value="rem" />
-                <p>Remember for 30 days</p>
-              </div>
-              <p id="pss">Forgot password?</p>
-            </div>
+    <!-- container -->
+    <div class="container">
+      <!-- login side -->
+      <div class="login">
+        <div>
+          <!-- logo -->
+          <img src="./media/icon.jpg" alt="company-icon" />
+          <p class="welcome">Welcome back!</p>
+          <p class="detailin">Please enter your details</p>
+          <!-- email & password -->
+          <div class="form">
+            <input
+              name="email"
+              id="input"
+              placeholder="Email"
+              size="40"
+              type="text"
+            />
+            <input
+              name="password"
+              id="input"
+              placeholder="Password"
+              type="password"
+            />
+            <i class="fa fa-eye-slash" id="eye"></i>
           </div>
-          <div class="sec-2">
-            <button class="login-button">Login</button>
-            <!-- google log -->
-            <button id="google">
-              <img src="./media/google.png" alt="google icon" />
-              Log in with Google
-            </button>
-            <p>Don't have an account? <span class="sign-up">Sign Up</span></p>
+          <!-- remember & forgot -->
+          <div class="forgot">
+            <div>
+              <input type="checkbox" id="rem" value="rem" />
+              <p>Remember for 30 days</p>
+            </div>
+            <p id="pss">Forgot password?</p>
           </div>
         </div>
-        <!-- anime side -->
-        <div class="anime">
-          <img src="./media/character.jpg" alt="" />
+        <div class="sec-2">
+          <!-- google log -->
+          <button class="login-button">Login</button>
+          <button class="login-button" id="google">
+            <img class="goo" src="./media/google.png" alt="google icon" /><span
+              >Log in with Google</span
+            >
+          </button>
+          <p>Don't have an account? <span class="sign-up">Sign Up</span></p>
         </div>
       </div>
-    </section>
+      <!-- anime side -->
+      <div class="anime">
+        <img src="./media/character.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="./src/javascript.js"></script>
   </body>
 </html>
