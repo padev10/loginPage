@@ -28,8 +28,8 @@ body {
 /*************************LOGIN*/
 .container {
   display: flex;
-  width: 80rem;
-  height: 55rem;
+  width: 60rem;
+  height: 40rem;
   border-radius: 2rem;
   padding: 0.4rem;
   background-color: #e9e9e9;
@@ -46,72 +46,76 @@ body {
 }
 .login img {
   display: block;
-  width: 5rem;
-  height: 5rem;
+  width: 3rem;
+  height: 3rem;
   margin: auto;
-  margin-top: 2rem;
 }
 .login p {
   display: block;
   text-align: center;
 }
 .login .welcome {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: bold;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 .detailin {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   margin-top: 0.4rem;
 }
 /*************************FORM*/
-.form {
+form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-top: 2rem;
-}
-.form input {
-  width: 20rem;
-  height: 3.5rem;
   margin-top: 1rem;
-  font-size: 24rem;
+}
+form input {
+  width: 15rem;
+  height: 2.5rem;
+  margin-top: 1rem;
   border: none;
   outline: none;
   font-size: 0.8rem;
   border-bottom: 2px solid #1b1d21;
 }
 #input {
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 #eye {
   position: absolute;
-  left: 19em;
-  top: 6.8rem;
+  cursor: pointer;
+  left: 14em;
+  top: 5rem;
 }
 /*************************FORM*/
-
 .forgot {
   display: flex;
-  margin-top: 1.4rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.2rem;
   padding: 0.2rem 0;
   transition: all 0.4s;
+  font-size: 0.5rem;
 }
-.forgot div,
-.forgot p {
+.forgot div {
   display: flex;
-  font-size: 0.65rem;
+  align-items: center;
   color: #b2b3b3;
+  white-space: nowrap;
 }
 .forgot div p {
+  display: flex;
   margin-left: 0.4rem;
   font-weight: bold;
   color: #1b1d21;
 }
 #pss {
-  margin-left: 5.6rem;
+  display: flex;
+  align-items: center;
+  margin-left: 3.8rem;
 }
 #pss:hover {
   color: #1b1d21;
@@ -128,9 +132,10 @@ body {
   justify-content: center;
   align-items: center;
   margin: auto;
-  width: 20rem;
+  width: 14rem;
+  font-weight: bold;
   margin-top: 2.2rem;
-  padding: 1.2rem 6rem;
+  padding: 1.2rem 0;
   border-radius: 2rem;
   color: #fff;
   outline: none;
@@ -141,8 +146,8 @@ body {
   transition: all 0.4s;
 }
 .sec-2 p {
-  margin-top: 10rem;
-  font-size: 0.8rem;
+  margin-top: 6rem;
+  font-size: 0.6rem;
 }
 .sec-2 p span {
   font-weight: bold;
@@ -159,9 +164,12 @@ body {
   background-color: #f3f3f3;
 }
 .sec-2 button img {
-  width: 1.8rem;
-  height: 1.8rem;
+  width: 1.2rem;
+  height: 1.2rem;
   margin: 0;
+}
+.sec-2 button {
+  font-size: 0.8rem;
 }
 button#google {
   display: flex;
@@ -170,7 +178,7 @@ button#google {
   border-radius: 2rem;
   border: none;
   outline: none;
-  margin-top: 1rem;
+  margin-top: 0.8em;
 }
 button#google span {
   margin-left: 0.4rem;
@@ -186,8 +194,8 @@ button#google span {
   align-items: center;
 }
 .anime img {
-  width: 34rem;
-  height: 34rem;
+  width: 25rem;
+  height: 25rem;
 }
 /**************************MEDIA QUERY*/
 @media screen and (max-width: 379px) {
@@ -198,20 +206,20 @@ button#google span {
     flex-direction: column;
   }
   .anime img {
-    margin-top: 1rem;
+    margin-top: 0.3rem;
     width: 2rem;
     height: 2rem;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 514px) {
   body {
-    width: 44vh;
+    width: 35vh;
   }
   .container {
     flex-direction: column;
   }
   .anime img {
-    margin-top: 1rem;
+    margin-top: 0.09rem;
     width: 2rem;
     height: 2rem;
   }
