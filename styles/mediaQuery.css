@@ -1,0 +1,82 @@
+/**************************MEDIA QUERY*/
+@media screen and (max-width: 379px) {
+    body {
+      width: 40vh;
+    }
+    .container {
+      flex-direction: column;
+    }
+    .anime img {
+      margin-top: 0.3rem;
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+  @media screen and (min-width: 380px) and (max-width: 514px) {
+    body {
+      width: 40vh;
+    }
+    .container {
+      flex-direction: column;
+    }
+    .anime img {
+      margin-top: 0.25rem;
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+  @media screen and (min-width: 515px) and (max-width: 604px) {
+    body {
+      width: 40vh;
+    }
+    .anime img {
+      width: 8rem;
+      height: 8rem;
+    }
+  }
+  @media screen and (min-width: 605px) and (max-width: 777px) {
+    body {
+      width: 75vh;
+    }
+    .anime img {
+      width: 14rem;
+      height: 14rem;
+    }
+  }
+  @media screen and (min-width: 778px) and (max-width: 925px) {
+    body {
+      width: 95vh;
+    }
+    .anime img {
+      width: 20rem;
+      height: 20rem;
+    }
+  }
+  @media screen and (min-width: 926px) and (max-width: 959px) {
+    body {
+      width: 95vh;
+    }
+    .anime img {
+      width: 22rem;
+      height: 22rem;
+    }
+  }
+  @media screen and (min-width: 960px) and (max-width: 1099px) {
+    body {
+      width: 100vh;
+    }
+    .anime img {
+      width: 24rem;
+      height: 24rem;
+    }
+  }
+  @media screen and (min-width: 1100px) and (max-width: 1119px) {
+    body {
+      width: 110vh;
+    }
+  }
+  @media screen and (min-width: 1120px) and (max-width: 1320px) {
+    body {
+      width: 140vh;
+    }
+  }
