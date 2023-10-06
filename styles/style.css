@@ -91,6 +91,7 @@ form input {
   top: 5rem;
 }
 /*************************FORM*/
+
 .forgot {
   display: flex;
   justify-content: center;
@@ -99,16 +100,21 @@ form input {
   padding: 0.2rem 0;
   transition: all 0.4s;
   font-size: 0.5rem;
+  width: 15rem;
 }
 .forgot div {
   display: flex;
-  align-items: center;
   color: #b2b3b3;
   white-space: nowrap;
 }
+.forgot div input {
+  margin-top: -0.1rem;
+  width: 0.7rem;
+  height: 0.7rem;
+}
 .forgot div p {
   display: flex;
-  margin-left: 0.4rem;
+  margin-left: 0.2rem;
   font-weight: bold;
   color: #1b1d21;
 }

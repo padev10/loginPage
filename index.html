@@ -41,28 +41,30 @@
                 id="input1"
                 placeholder="Email"
                 size="40"
-                type="email" required
+                type="email"
+                required
               />
               <input
                 name="password"
                 id="input2"
                 placeholder="Password"
-                type="password" required
-              /><i class="fa fa-eye-slash" id="eye"></i>
+                type="password"
+                required
+              /><i class="fa fa-eye-slash" id="eye"></i
+              ><!-- remember & forgot -->
+              <div class="forgot">
+                <div>
+                  <input type="checkbox" id="rem" value="rem" />
+                  <p>Remember for 30 days</p>
+                </div>
+                <p id="pss">Forgot password?</p>
+              </div>
+              <button type="submit" class="login-button">Login</button>
             </form>
-          </div>
-          <!-- remember & forgot -->
-          <div class="forgot">
-            <div>
-              <input type="checkbox" id="rem" value="rem" />
-              <p>Remember for 30 days</p>
-            </div>
-            <p id="pss">Forgot password?</p>
           </div>
         </div>
         <div class="sec-2">
           <!-- google log -->
-          <button class="login-button">Login</button>
           <button class="login-button" id="google">
             <img class="goo" src="./media/google.png" alt="google icon" /><span
               >Log in with Google</span
